@@ -1,0 +1,162 @@
+[
+    {
+      "id": 1,
+      "category": 1,
+      "postDate": "2023-05-14",
+      "featureImage": "https://dummyimage.com/200x200/000/fff",
+      "price": 9.99,
+      "title": "Lawnmower",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras convallis fringilla sem efficitur congue. Vestibulum efficitur blandit ultricies. Sed tempus mollis orci id facilisis. Aliquam placerat, ipsum eget egestas malesuada, neque nunc scelerisque felis, ut egestas turpis augue ut nisi. Curabitur vel convallis augue.",
+      "published": true
+    },
+    {
+      "id": 2,
+      "category": 1,
+      "postDate": "2023-05-15",
+      "featureImage": "https://dummyimage.com/200x200/000/fff",
+      "price": 19.99,
+      "title": "Weber BBQ",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras convallis fringilla sem efficitur congue. Vestibulum efficitur blandit ultricies. Sed tempus mollis orci id facilisis. Aliquam placerat, ipsum eget egestas malesuada, neque nunc scelerisque felis, ut egestas turpis augue ut nisi. Curabitur vel convallis augue.",
+      "published": true
+    },
+    {
+      "id": 3,
+      "category": 2,
+      "postDate": "2023-05-16",
+      "featureImage": "https://dummyimage.com/200x200/000/fff",
+      "price": 439.99,
+      "title": "PS5",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras convallis fringilla sem efficitur congue. Vestibulum efficitur blandit ultricies. Sed tempus mollis orci id facilisis. Aliquam placerat, ipsum eget egestas malesuada, neque nunc scelerisque felis, ut egestas turpis augue ut nisi. Curabitur vel convallis augue.",
+      "published": true
+    },
+    {
+      "id": 4,
+      "category": 2,
+      "postDate": "2023-05-17",
+      "featureImage": "https://dummyimage.com/200x200/000/fff",
+      "price": 459.99,
+      "title": "XBOX",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras convallis fringilla sem efficitur congue. Vestibulum efficitur blandit ultricies. Sed tempus mollis orci id facilisis. Aliquam placerat, ipsum eget egestas malesuada, neque nunc scelerisque felis, ut egestas turpis augue ut nisi. Curabitur vel convallis augue.",
+      "published": true
+    },
+    {
+      "id": 5,
+      "category": 3,
+      "postDate": "2023-05-18",
+      "featureImage": "https://dummyimage.com/200x200/000/fff",
+      "price": 39.99,
+      "title": "TShirt",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras convallis fringilla sem efficitur congue. Vestibulum efficitur blandit ultricies. Sed tempus mollis orci id facilisis. Aliquam placerat, ipsum eget egestas malesuada, neque nunc scelerisque felis, ut egestas turpis augue ut nisi. Curabitur vel convallis augue.",
+      "published": true
+    },
+    {
+      "id": 6,
+      "category": 3,
+      "postDate": "2023-05-19",
+      "featureImage": "https://dummyimage.com/200x200/000/fff",
+      "price": 29.99,
+      "title": "Shorts",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras convallis fringilla sem efficitur congue. Vestibulum efficitur blandit ultricies. Sed tempus mollis orci id facilisis. Aliquam placerat, ipsum eget egestas malesuada, neque nunc scelerisque felis, ut egestas turpis augue ut nisi. Curabitur vel convallis augue.",
+      "published": true
+    },
+    {
+      "id": 7,
+      "category": 4,
+      "postDate": "2023-05-20",
+      "featureImage": "https://dummyimage.com/200x200/000/fff",
+      "price": 19.99,
+      "title": "Baseball",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras convallis fringilla sem efficitur congue. Vestibulum efficitur blandit ultricies. Sed tempus mollis orci id facilisis. Aliquam placerat, ipsum eget egestas malesuada, neque nunc scelerisque felis, ut egestas turpis augue ut nisi. Curabitur vel convallis augue.",
+      "published": true
+    },
+    {
+      "id": 8,
+      "category": 4,
+      "postDate": "2023-05-21",
+      "featureImage": "https://dummyimage.com/200x200/000/fff",
+      "price": 99.99,
+      "title": "Soccer Ball",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras convallis fringilla sem efficitur congue. Vestibulum efficitur blandit ultricies. Sed tempus mollis orci id facilisis. Aliquam placerat, ipsum eget egestas malesuada, neque nunc scelerisque felis, ut egestas turpis augue ut nisi. Curabitur vel convallis augue.",
+      "published": true
+    },
+    {
+      "id": 9,
+      "category": 5,
+      "postDate": "2023-05-16",
+      "featureImage": "https://dummyimage.com/200x200/000/fff",
+      "price": 99.99,
+      "title": "Dog Food",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras convallis fringilla sem efficitur congue. Vestibulum efficitur blandit ultricies. Sed tempus mollis orci id facilisis. Aliquam placerat, ipsum eget egestas malesuada, neque nunc scelerisque felis, ut egestas turpis augue ut nisi. Curabitur vel convallis augue.",
+      "published": true
+    },
+    {
+      "id": 10,
+      "category": 5,
+      "postDate": "2023-05-16",
+      "featureImage": "https://dummyimage.com/200x200/000/fff",
+      "price": 9.99,
+      "title": "Fish Food",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras convallis fringilla sem efficitur congue. Vestibulum efficitur blandit ultricies. Sed tempus mollis orci id facilisis. Aliquam placerat, ipsum eget egestas malesuada, neque nunc scelerisque felis, ut egestas turpis augue ut nisi. Curabitur vel convallis augue.",
+      "published": true
+    },
+    {
+      "title": "Bottle",
+      "price": "150",
+      "body": "",
+      "category": "1",
+      "featureImage": "",
+      "id": 11
+    },
+    {
+      "title": "Bottle",
+      "price": "150",
+      "body": "",
+      "category": "1",
+      "published": "on",
+      "featureImage": "",
+      "id": 12
+    },
+    {
+      "title": "Seed",
+      "price": "150",
+      "body": "Wheat seeds",
+      "category": "1",
+      "featureImage": "",
+      "id": 13
+    },
+    {
+      "title": "Phone",
+      "price": "13500",
+      "body": "Iphone",
+      "category": "2",
+      "published": "on",
+      "featureImage": "",
+      "id": 14
+    },
+    {
+      "title": "Phone",
+      "price": "15500",
+      "body": "iPhone 15 Pro Max",
+      "category": "1",
+      "featureImage": "http://res.cloudinary.com/danhctegv/image/upload/v1730474803/nhso1fn7tpgosivpuacj.png",
+      "id": 15
+    },
+    {
+      "title": "Car",
+      "price": "$350000",
+      "body": "vroom vroom",
+      "category": "4",
+      "published": "on",
+      "featureImage": "http://res.cloudinary.com/danhctegv/image/upload/v1731816501/vtdrvzxr4t1xe4c157do.jpg",
+      "id": 16
+    },
+    {
+      "title": "Fan",
+      "price": "120",
+      "body": "Only a fan",
+      "category": "2",
+      "published": "on",
+      "featureImage": "http://res.cloudinary.com/danhctegv/image/upload/v1731824633/jkcl9e8x3ihrmbeu3uju.jpg",
+      "id": 17
+    }
+  ]

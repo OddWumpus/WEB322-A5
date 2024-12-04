@@ -1,0 +1,36 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; /* Changed font family */
+    padding-top: 40px; /* Reduced padding at the top */
+    background-color: #e9ecef; /* Light grey background color */
+    color: #495057; /* Slightly lighter dark text color */
+}
+
+h2 {
+    color: #28a745; /* Changed to green for headings */
+    font-family: 'Times New Roman', serif; /* Different font for h2 */
+    font-weight: normal; /* Regular weight for heading */
+}
+
+p {
+    line-height: 1.8; /* Increased line height for better readability */
+    margin-bottom: 20px; /* More space between paragraphs */
+}
+
+.navbar {
+    background-color: #495057; /* Lighter dark background for navbar */
+}
+
+.nav-link {
+    color: #f8f9fa !important; /* Lighter text color for navbar links */
+}
+
+.nav-link:hover {
+    color: #17a2b8 !important; /* Teal color on hover */
+}
+
+footer {
+    background-color: #28a745; /* Green color for footer */
+    color: #ffffff; /* White text in footer */
+    padding: 30px; /* Increased padding in footer */
+    text-align: left; /* Left-aligned text */
+}

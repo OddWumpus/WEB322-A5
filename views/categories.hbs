@@ -1,0 +1,32 @@
+<!-- categories.hbs -->
+<h2>Categories <a href="/categories/add" class="btn btn-success pull-right">Add
+        Category</a></h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Category ID</th>
+            <th scope="col">Category Name</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each categories}}
+        <tr>
+            <td>{{id}}</td>
+            <td><a href="/items?category={{id}}">{{category}}</a></td> <!-- Add link back -->
+            <td><a href="/categories/delete/{{id}}" class="btn btn-danger">remove</a></td>
+        </tr>
+        {{else}}
+        <tr>
+            <td colspan="3">
+                <div class="alert alert-warning">
+                    <strong>{{message}}</strong>
+                </div>
+
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+
+    

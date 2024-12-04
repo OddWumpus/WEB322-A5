@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - {{item.title}}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .item-image {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .item-detail {
+            margin-top: 20px;
+        }
+        .category-list a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .category-list a:hover {
+            text-decoration: underline;
+        }
+        .btn-back {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container py-5">
+        <!-- Title and Item Details -->
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <h2 class="text-primary">{{item.title}}</h2>
+                <img src="{{item.featureImage}}" alt="{{item.title}}" class="item-image img-fluid mb-3">
+                <p class="lead">{{#safeHTML item.body}}{{/safeHTML}}</p>
+                <div class="item-detail">
+                    <p><strong>Category:</strong> <span class="badge bg-secondary">{{item.category}}</span></p>
+                    <p><strong>Price:</strong> <span class="text-success">${{item.price}}</span></p>
+                    <p><strong>Last Updated:</strong> <span class="text-muted">{{item.itemate}}</span></p>
+                </div>
+                <a href="/shop" class="btn btn-secondary btn-back">
+                    <i class="bi bi-arrow-left"></i> Back to Shop
+                </a>
+            </div>
+        </div>
+
+        <!-- Items Section -->
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <h4 class="text-secondary">Items</h4>
+                {{#if items}}
+                    <ul class="list-group">
+                        {{#each items}}
+                            <li class="list-group-item">
+                                <a href="/shop/{{this.id}}?category={{../viewingCategory}}" class="d-flex justify-content-between text-decoration-none text-dark">
+                                    <span>{{this.title}}</span>
+                                    <i class="bi bi-arrow-right-circle"></i>
+                                </a>
+                            </li>
+                        {{/each}}
+                    </ul>
+                {{else}}
+                    <p class="text-muted">No items available.</p>
+                {{/if}}
+            </div>
+        </div>
+
+        <!-- Categories Section -->
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="text-secondary">Categories</h4>
+                {{#if categories}}
+                    <ul class="category-list">
+                        {{#each categories}}
+                            <li><a href="/shop?category={{this.id}}" class="d-block mb-2">{{this.name}}</a></li>
+                        {{/each}}
+                    </ul>
+                {{else}}
+                    <p class="text-muted">No categories available.</p>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
